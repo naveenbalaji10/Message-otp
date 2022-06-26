@@ -1,0 +1,51 @@
+$color1: #6298d6;
+
+.infocontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .modalheader {
+    font-weight: 600;
+  }
+  .modalcontainer {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(157, 202, 240);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+  }
+  .contactdata {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  .contactheader {
+    flex: 0.5;
+  }
+  .contactdetail {
+    flex: 0.5;
+    text-align: left;
+    margin-left: 10px;
+  }
+  .sendbutton {
+    margin-top: 50px;
+    background-color: $color1;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+
+    &:hover {
+      background-color: #2d629e;
+    }
+  }
+}
